@@ -2,7 +2,9 @@ source 'https://rubygems.org'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
+
 end
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
 # Use SCSS for stylesheets
